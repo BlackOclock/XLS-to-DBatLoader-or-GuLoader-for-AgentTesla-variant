@@ -84,7 +84,7 @@
 
 
 
-                                             ##**1. ANALYSIS OVERVIEW**
+##**1. ANALYSIS OVERVIEW**
 
 
 ![Malware-Traffic-Analysis.net Source Files](images/pcap.png)
@@ -97,7 +97,7 @@ Shape 1: downloaded source files in malware-traffic-analysis.net - 'JUST' PCAP f
 
 
 
-                                          ##**2. NETWORK TRAFFIC ANALYSIS**
+##**2. NETWORK TRAFFIC ANALYSIS**
 
 2.1-Protocol Hierarchy – Big Picture
 
@@ -156,7 +156,7 @@ Just we are seeing why this filter is important,when 80 port is used on the netw
 
 
 
-                                            ##**3. NETWORKMINER ANALYSIS**
+##**3. NETWORKMINER ANALYSIS**
 
 - 3.1 File Details (HTA, VBS, TXT)
 
@@ -194,7 +194,7 @@ Let me explain; JA3 and JA4 are techniques used to fingerprint TLS clients and s
 JA4 is a newer technique.It is like a fingerprint for internet traffic. Just like humans have unique fingerprints, every software that connects to the internet leaves a unique mark. More helpful to find C2 server.
 
 
-                                            ##**4. ZEEK (ZUI) LOGS ANALYSIS**
+##**4. ZEEK (ZUI) LOGS ANALYSIS**
 
 
 - 4.1 File Extraction Confirmation, MD5/SHA1 Hashes & Timestamps , VirusTotal Integration
@@ -234,7 +234,7 @@ SHA256	018648727f760e361eb4efa7f955a7815a197224c23016b321ab954767b45b82
 
 
 
-                                   ##**5. EXTRACTED FILES & STATIC ANALYSIS**
+##**5. EXTRACTED FILES & STATIC ANALYSIS**
 
 
 In here we will export all files from pcap on desktop and we will analysis with binwalk
@@ -257,7 +257,7 @@ The TXT file gave me a strange output. It says "Broadcom header", which doesn't 
 
 
 
-                                         ##**6. TRIAGE & BEHAVIORAL ANALYSIS**
+##**6. TRIAGE & BEHAVIORAL ANALYSIS**
 
 
 - 6.1 HTA Triage – mshta.exe Execution
@@ -368,7 +368,7 @@ This confirms that `foeMMBIG.txt` is actually a ransomware dropper.
 
 
 
-                                        ##**7. PROCESS INJECTION ANALYSIS**
+##**7. PROCESS INJECTION ANALYSIS**
 
 
 
@@ -392,7 +392,7 @@ PID 4432 (csc.exe) wrote to PID 3332 (unknown)
 PowerShell (PID 4424) enabled SeDebugPrivilege, allowing it to access other processes.
 
 
-                                         ##**8. MEMORY DUMP ANALYSIS**
+##**8. MEMORY DUMP ANALYSIS**
 
 
 - 8.1 PowerShell Memory Dumps(HTA) (PID 4424)
@@ -412,7 +412,7 @@ The VBS file (run by WScript.exe, PID 1184) also created memory dumps. These dum
 
 
 
-                                    ##**9. C2 DETECTION & FINGERPRINTING**
+ ##**9. C2 DETECTION & FINGERPRINTING**
 
 - 9.1 Jarm / JA4 Analysis
 
@@ -489,7 +489,7 @@ This IP was involved in 86 events across 1 distinct attack types. Attacks: tcp-p
 
 
 
-                                     ##**10. EXFILTRATION ANALYSIS**
+##**10. EXFILTRATION ANALYSIS**
 
 - 10.1 FTP Traffic – 89.39.83.184
 
@@ -514,7 +514,7 @@ I searched the FTP server IP (89.39.83.184) on Shodan to learn more about the at
 
 
 
-                                         ##**12. THREAT INTELLIGENCE**
+##**12. THREAT INTELLIGENCE**
 
 
 12.1 VirusTotal & MalwareBazaar Results
@@ -554,11 +554,11 @@ FTP exfiltration of stolen data	- APT37 steals credentials and files
 Ransomware at the end - APT37 now uses ransomware too 
 Targets maybe in Europe	- APT37 is active in Europe 
 Conclusion
-The techniques we saw in this attack match what APT37 usually does. It's not 100% proof, but it looks like APT37 (ScarCruft). A North Korean hacker group is probably behind this.
+The techniques we saw in this attack match what APT37 usually does. It's not 100% proof, but it looks like APT37. A North Korean hacker group is probably behind this.
  
 
 
-                                            ##**13. DETECTION ENGINEERING**
+##**13. DETECTION ENGINEERING**
 
 
 - 13.1 Sigma Rules
@@ -628,7 +628,7 @@ NOTE! I know this is basic but just im trying to learning sigma-rules.
 
 
 
-                                        ##**14. CONCLUSION & IOCs**
+##**14. CONCLUSION & IOCs**
 
 14.1 Full Attack Chain Summary
 
@@ -684,9 +684,7 @@ SHA1	bec5f3f43449189ebf5dadf314288acace4828d7
 SHA256	018648727f760e361eb4efa7f955a7815a197224c23016b321ab954767b45b82
 
  
-                                                       FTP Credentials:
-
-
+**FTP Credentials:**
 - Username: biggiemma@horeca-bucuresti.ro
 - Password: e)rwKbkKP8-m0
 
