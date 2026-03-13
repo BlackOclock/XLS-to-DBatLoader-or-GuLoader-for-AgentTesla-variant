@@ -125,7 +125,7 @@ We use Conversations to detect IP pairs that have the most data transfer between
 
 
 
-We use Endpoints to identify the top talkers on the network. 104.17.201.1 has 3MB has 3 MB of transmitted data (Tx) and also 10.9.1.101 has 3MB has 3 MB of received data (Rx). Additionally, the top talkers are 104.17.201.1 as the source and 10.9.1.101 as the destination.
+We use Endpoints to identify the top talkers on the network. 104.17.201.1 has 3MB of transmitted data (Tx) and also 10.9.1.101 has 3MB of received data (Rx). Additionally, the top talkers are 104.17.201.1 as the source and 10.9.1.101 as the destination.
 
 
 
