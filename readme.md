@@ -89,9 +89,6 @@
 
 ![Malware-Traffic-Analysis.net Source Files](images/pcap.png)
 
-
-
-
 Shape 1: downloaded source files in malware-traffic-analysis.net - 'JUST' PCAP file was used\
 
 
