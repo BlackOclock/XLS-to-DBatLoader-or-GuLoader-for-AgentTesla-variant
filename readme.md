@@ -422,13 +422,13 @@ Only Jarm is printed from 2 IPs
 
 - 9.2 GreyNoise & Shodan Pivoting & C2 Infrastructure Mapping
 
-I extracted JA4 fingerprints from NetworkMiner and searched them in GreyNoise. I found 25 IPs flagged as malicious with the same JA4 fingerprint. Then I searched all these IPs in Shodan to check their open ports and services.
+I extracted JA4 fingerprints from NetworkMiner and searched them in GreyNoise. I found 26 IPs flagged as malicious with the same JA4 fingerprint. Then I searched all these IPs in Shodan to check their open ports and services.
 
 This list was created by checking GreyNoise, and these IPs are flagged as malicious in GreyNoise:
 
 
 
-*34.122.147.229 ( Web application brute-force login attempts - according to source Guardpot - 7 months ago
+* 34.122.147.229 ( Web application brute-force login attempts - according to source Guardpot - 7 months ago
 This IP was involved in 1222 events across 2 distinct attack types. Attacks: tcp-portscan (1177), fortinet-login (45). First seen: 2024-05-07 23:10 UTC, Last seen: 2025-07-17 17:28 UTC. 3/94 security vendors flagged this IP address as malicious . Not After: 2020-11-30 22:10:40 )
 
 
@@ -465,7 +465,7 @@ ISP : Stiftung Erneuerbare Freiheit)
 This IP was involved in 86 events across 1 distinct attack types. Attacks: tcp-portscan (86). First seen: 2024-08-22 22:29 UTC, Last seen: 2025-07-04 17:29 UTC. 
 * 47.254.76.66 ( Cloud Provider : Alibaba Cloud Country : USA open ports : 22 Operation system : Linux
 
-*47.251.118.89 (Cloud Provider : Alibaba Cloud Country : USA open ports : 22 Operation system : Linux) 
+* 47.251.118.89 (Cloud Provider : Alibaba Cloud Country : USA open ports : 22 Operation system : Linux) 
 
 
 * 107.189.12.7( Hostnames : tor.privatebrowsing.org Country Luxembourg open ports: 80)
