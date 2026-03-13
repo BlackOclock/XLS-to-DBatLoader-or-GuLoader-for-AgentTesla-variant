@@ -510,7 +510,7 @@ when we check files on networkminer there were 2498(PW_user1_DESKTOP.html) and 2
 
 I searched the FTP server IP (89.39.83.184) on Shodan to learn more about the attacker's infrastructure.
 
-![Attackers_info](images/attackeri.png)
+![Attackers_info](images/attackerip.png)
 
 
 
