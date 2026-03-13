@@ -61,7 +61,6 @@
 ### **11. RANSOMWARE BEHAVIOR**
 - 11.1 foeMMBIG.txt Execution
 - 11.2 Notepad.exe as Injection Target
-- 11.3 Impact Analysis
 
 ### **12. THREAT INTELLIGENCE**
 - 12.1 VirusTotal & MalwareBazaar Results
